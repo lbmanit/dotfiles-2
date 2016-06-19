@@ -2,7 +2,7 @@
 # 
 # I use [Seil] to remap my Caps Lock key to escape.
 # 
-# ![Seil](/Users/jeff/Desktop/seil.png)
+# ![Remapping caps lock to escape in Seil]
 # 
 # If you don't want to install Seil, you can also remap your Caps Lock key to ⌃
 # , ⌥ or ⌘ (or disable it altogether) in System Preferences ( › System
@@ -15,6 +15,7 @@
 #     $ defaults write -g KeyRepeat -int 2 #33ms
 # 
 # [Seil]: https://pqrs.org/osx/karabiner/seil.html.en
+# [Remapping caps lock to escape in Seil]: images/seil.png
 
 /Applications/Seil.app/Contents/Library/bin/seil set enable_capslock 1
 /Applications/Seil.app/Contents/Library/bin/seil set keycode_capslock 53
